@@ -1,6 +1,18 @@
 .col-3 {
     color: orange;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     
+}
+
+hr{
+    top: 20px; 
+    border-top: 5px solid;
+    height: 12px;
+    margin-bottom: 50px; 
+    margin-top: 50px;
+}
+
+*{
+    background: rgba(5, 195, 243, 0.089)
 }

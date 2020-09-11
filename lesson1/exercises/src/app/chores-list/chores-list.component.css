@@ -6,6 +6,12 @@ h3 {
 ul {
     color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
 }
+.vl {
+    border-left: 5px dashed green;
+    height: 500px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
