@@ -4,5 +4,7 @@
        <li *ngFor ="let movie of movies">{{movie}}</li>
     </ol>
     <hr>
-
- </div>
+    <input #newMovie (keyup.enter)='addMovie(newMovie.value); newMovie.value=""' type='text' placeholder='Enter Movie Title Here'/>
+    <button (click)='addMovie(newMovie.value); newMovie.value=""'>Add</button>  
+    <p style="color:red" *ngIf="movieStatus === false" >Blank, or already on the list!</p>
+   </div>
