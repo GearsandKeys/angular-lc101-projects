@@ -6,12 +6,13 @@
    <button (click)="activateTheButtons()">Activate/Deactivate Buttons</button>
 </div>
 
-<div class="joke" (mouseout)="!activeFrustration = activeFrustration">
+<div class="joke" (mouseout)="activeFrustration = true">
    <h3 style="color:brown; text-decoration:underline">Joke Buttons</h3>
-   <div (mouseout)="activeFrustration = true">
+   <div>
    <button [class.frustration]="activeFrustration" [disabled]="!activeFrustration" (mouseover)="activeFrustration = false">Frustration Incarnate!</button>
    </div>
    <button>Catch me!</button>
    <button>Catch me!</button>
    <button>Catch me!</button>
+   <!--Could also have one button that moves instead of using visibility-->
 </div>
